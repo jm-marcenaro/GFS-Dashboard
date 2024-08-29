@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "C:\Users\Juan\Documents\PRON-PPT-GFS\NodeJS-GFS\DB\GFS-DB.bat", 0, False

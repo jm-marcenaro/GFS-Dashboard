@@ -1,0 +1,32 @@
+/* Center all table cell contents */
+#forecastTable th, #forecastTable td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Highlight row closest to current time with reduced transparency */
+#forecastTable tbody tr.highlight-row {
+    background-color: rgba(255, 255, 0, 0.25);
+}
+
+/* Container for the charts */
+.chart-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-gap: 20px; /* Space between grid items */
+    margin: 20px; /* Space around the grid */
+    height: 100vh; /* Adjust based on how much of the viewport height you want to use */
+}
+
+/* Individual chart items */
+.chart-container > div {
+    position: relative;
+    height: 100%; /* Make the div fill the container's height */
+}
+
+/* Ensure the canvas fills the parent div while maintaining aspect ratio */
+canvas {
+    width: 100% !important; /* Ensure canvas fills its container */
+    height: 100% !important; /* Ensure canvas fills its container */
+    object-fit: contain; /* Maintain aspect ratio */
+}

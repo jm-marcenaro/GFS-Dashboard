@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href='./style/styles.css'>
+
+    <!-- Import table.js -->
+    <script type="module" src="./table.js"></script>
+
+    <!-- Import plot.js -->
+    <script type="module" src="./plot.js"></script>
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+
+    <!-- DataTables JavaScript -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+    <!-- ChartJS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Include ChartJS date adapter -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+
+    <!-- Include the Chart.js Annotation Plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+
+</head>
+
+<body>
+
+    <table id="forecastTable">
+        
+        <thead>
+        
+            <tr>
+                <th>Fecha y Hora</th>
+                <th>Temperatura [°C]</th>
+                <th>Humedad relativa [%]</th>
+                <th>Velocidad del viento [km/h]</th>
+                <th>Dirección del viento [°]</th>
+                <th>Nubosidad [%]</th>
+                <th>Pulsos de Ppt. [mm]</th>
+                <th>Ppt. acumulada [mm]</th>
+            </tr>
+        
+        </thead>
+        
+        <tbody>
+            
+            <!-- Weather data will be inserted here -->
+        
+        </tbody>
+
+    </table>
+
+    <!-- div donde se insertan gráficos -->
+    <div class="chart-container">
+
+        <div><canvas id="chart_temp" height="250"></canvas></div>
+        
+        <div><canvas id="chart_ppt" height="250"></canvas></div>
+
+        <div><canvas id="chart_hum" height="250"></canvas></div>
+
+        <div><canvas id="chart_wind_speed" height="250"></canvas></div>
+
+        <div><canvas id="chart_nb" height="250"></canvas></div>
+        
+        <div><canvas id="chart_wind_dir" height="250"></canvas></div>
+        
+
+
+    </div>
+
+
+</body>
+
+</html>
