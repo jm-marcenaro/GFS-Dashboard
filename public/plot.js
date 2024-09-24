@@ -243,7 +243,7 @@ async function updatePlots() {
                         text: 'Ppt. (mm)'
                     },
                     min: 0,
-                    max: 50
+                    max: 80
                 }
             },
             
