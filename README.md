@@ -1,6 +1,8 @@
 ## GFS Tablero
  Tablero con el pronóstico de las variables climáticas que ofrece el Global Forecast System. La descarga de datos se realiza a través de la API de Python de Google Earth Engine y luego se sirven a través de Node.js.
 
+ En el siguiente [post](https://jm-marcenaro.github.io/hugo-toha.github.io/posts/nodejs/nodejs_1/) se explica en mejor detalle la estrucutra y funcionamiento general del proyecto.
+
  Las variables se pueden visualizar a través de una tabla o bien a través de un gráfico y corresponden a la Ciudad Autónoma de Buenos Aires.
 
  <p align="center">
