@@ -184,3 +184,11 @@
 2024-09-26 12:00:19,069 - INFO - Simulación: T06
 2024-09-26 15:00:04,093 - INFO - Script started.
 2024-09-26 15:00:06,839 - INFO - Simulación: T12
+2024-09-26 18:40:56,211 - INFO - Script started.
+2024-09-26 21:01:03,283 - INFO - Script started.
+2024-09-26 21:01:08,468 - INFO - Simulación: T18
+2024-09-27 08:00:38,384 - INFO - Script started.
+2024-09-27 08:00:44,396 - INFO - Simulación: T06
+2024-09-27 09:00:05,485 - INFO - Script started.
+2024-09-27 09:00:08,677 - INFO - Simulación: T06
+2024-09-27 09:00:09,540 - INFO - Simulación: T06
